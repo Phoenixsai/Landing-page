@@ -528,6 +528,7 @@ main {
             }
 
             a {
+                /* display: flex; */
                 font-size: 1.2rem;
                 text-decoration: none;
                 color: rgb(76, 175, 79);
@@ -763,6 +764,7 @@ footer {
         h3 {
             font-size: 14px;
             margin-bottom: 24px;
+            font-weight: 600;
         }
 
         h3:last-of-type {
@@ -1190,6 +1192,8 @@ footer {
 
     .card-5 {
         .text {
+
+
             p {
                 font-size: 1.6rem;
                 margin-bottom: 1.3rem;
@@ -1208,12 +1212,25 @@ footer {
         }
     }
 
+
+
     .card-6 {
         margin: 2rem;
 
         .text-head {
             p {
                 font-size: 1.6rem;
+            }
+        }
+    }
+
+    footer {
+
+        .footer-container {
+
+            ul li {
+                padding-left: 0;
+                font-weight: 400;
             }
         }
     }
@@ -1284,6 +1301,21 @@ footer {
         .img2 {
             order: 0;
         }
+
+
+        .text {
+            .customers {
+                a {
+                    display: flex;
+                    align-items: center;
+                    font-size: 1.5rem;
+                    text-decoration: none;
+                    color: rgb(76, 175, 79);
+                    gap: 5px;
+                }
+            }
+        }
+
     }
 
     .card-7 {
