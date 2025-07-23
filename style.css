@@ -1329,7 +1329,21 @@ footer {
     footer {
         .footer-container {
             padding: 5% 10%;
+
+            form {
+                #email {
+                    padding: 12px 10px;
+                    width: 255px;
+
+                }
+
+                #send {
+                    top: -3%;
+                    left: 250px;
+                }
+            }
         }
+
     }
 }
 
